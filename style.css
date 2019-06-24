@@ -249,3 +249,33 @@ header{
   width: 400px;
   margin:20px 0px;
 }
+
+/*ここまでuxdesign-section*/
+
+/*ここからabout-section*/
+.aboutme-inner{
+  width:600px;
+  padding:0;
+  margin:10px 0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.profile-pic{
+  width:300px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom:50px;
+}
+
+.profile-pic img{
+  width:300px;
+}
+
+.profile-text{
+  margin-bottom:30px;
+}
+
+.profile-text h5{
+   color: #888;
+}
