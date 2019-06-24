@@ -1,0 +1,251 @@
+
+body{
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  color: #888;
+  font-family: 'Hiragino Mincho ProN';
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #323A45;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #5983ff;
+  text-decoration: none;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h4, h5 {
+  color: #444;
+  font-size: 18px;
+}
+
+h3:before, h3:after{
+  content: "";
+  background-color: #616161;
+  display: inline-block;
+  width: 120px;
+  height: 1px;
+  margin: 0 6rem;
+  vertical-align: middle;
+}
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.section-title h3 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+
+/*ここからHeaderのCSS*/
+header{
+  height:50px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color:#fff;
+  line-height:50px;
+  box-shadow:-1px 1px 1px rgba(0,0,0,0,1);
+  z-index:10;
+}
+
+.header-title{
+  float:left;
+}
+
+.logo{
+
+  color:#777;
+  font-weight:700;
+  font-size:22px;
+  font-family: 'Dosis', sans-serif;
+  cursor: pointer;
+}
+
+.header-menu-right{
+  float:right;
+}
+
+.header-menu-right li{
+  float:left;
+  margin-right:20px;
+}
+
+.header-menu-right a{
+    color: #323A45;
+  font-weight:700;
+  padding:10px;
+}
+
+.header-menu-right a:hover{
+  color: #bababa;
+  transition: color .3s;
+}
+
+/*ここまでHeaderCSS*/
+
+
+/*ここからTopコンテンツ*/
+.top-section{
+  margin:0 auto;
+  text-align: center;
+  background-image: url("../Users/katsuki/Desktop/katsuwoHP/Photo-Art.jpg");
+  background-size: cover;
+}
+
+.top-inner{
+  padding:0;
+  padding-top:180px;
+  padding-bottom:120px;
+  background-color:#fff;
+}
+
+.top-description{
+  color:#bababa;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.top-section h2{
+  font-family: 'Dosis', sans-serif;
+  color: #d0d0d0;
+  font-size:48px;
+  line-height: 54px;
+  margin: 10px 0 30px 0;
+  font-weight:400;
+}
+
+.top-description p{
+  color: #bababa;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/*ここまでtop-section*/
+
+/*ここからwork-section*/
+.work-section{
+  text-align: center;
+  padding-bottom:;
+}
+
+.work-box{
+  width:100%;
+  margin: 0 auto;
+}
+
+.work-image{
+  width:500px;
+  padding:0px;
+  margin:10px 0;
+}
+
+#work-carousel img{
+  display: inline-block;
+  box-shadow: -8px 8px 8px rgba(0,0,0,0.3);
+}
+
+.carousel-indicaators{
+  z-index: 5;
+}
+
+.work-section p{
+  margin-top:30px;
+  font-size:12px;
+}
+
+/*ここまでwork-section*/
+
+/*ここからgalery-section*/
+.gallery-section{
+  padding-bottom: 60px;
+}
+
+.gallery-inner{
+  width:1050px;
+  padding:0;
+  margin:10px 0;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.gallery-inner tr{
+
+}
+
+.gallery-inner img{
+  display: inline-block;
+  width: 320px;
+  margin:50px 30px;
+  box-shadow: -8px 8px 8px rgba(0,0,0,0.3);
+}
+
+/*ここまでgalery-section*/
+
+/*ここからuxdesign-section*/
+.uxdesign-section{
+  padding-bottom: 60px;
+}
+
+.uxdesign-inner{
+  width:780px;
+  padding:0;
+  margin:10px 0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.uxdesign-inner td{
+  width:380px;
+}
+
+.uxdesign-text{
+  word-break: break-all;
+  padding:10px;
+  font-size:12px;
+  font-weight: 200;
+}
+
+.uxdesign-inner img{
+  display: inline-block;
+  width: 400px;
+  margin:20px 0px;
+}
